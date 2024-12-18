@@ -1,0 +1,40 @@
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  border-style: groove;
+  border-color: black;
+}
+.movie-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.movie-mid {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.movie-bot {
+  display: flex;
+  flex-direction: row;
+}
+
+.addEditMovie {
+  display: flex;
+  text-align: left;
+  border-style: groove;
+  border-width: 4px;
+  align-items: start;
+  flex-direction: column;
+}
+
+.buttonsAddEditMovie {
+  flex-direction: row;
+}
+
+.fromAddEditMovie {
+  flex-direction: column;
+  gap: 10px;
+}

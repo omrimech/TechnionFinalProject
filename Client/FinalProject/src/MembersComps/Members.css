@@ -1,0 +1,57 @@
+.member-container {
+  display: flex;
+  flex-direction: column;
+  border-style: groove;
+  border-color: black;
+}
+.member-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.member-mid {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.member-bot {
+  display: flex;
+  flex-direction: row;
+}
+
+.membersPage {
+    text-align: left;
+    border-style: groove;
+    border-width: 4px;
+  }
+
+.addEditMember {
+  display: flex;
+  text-align: left;
+  border-style: groove;
+  border-width: 4px;
+  align-items: start;
+  flex-direction: column;
+}
+
+.buttonsAddEditMember {
+  flex-direction: row;
+}
+
+.fromAddEditMember {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.moviesWacthed {
+  border-style: groove;
+  border-color: silver;
+  width: 90%;
+}
+
+.assignMovie {
+  border-style: groove;
+  border-color: red;
+}

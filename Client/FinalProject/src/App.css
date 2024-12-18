@@ -1,0 +1,27 @@
+.middleDiv {
+  text-align: center;
+  margin: auto;
+  width: 640px;
+  padding: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  color: #2e475d;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.MoviesPages {
+  text-align: left;
+  border-style: groove;
+  border-width: 4px;
+}
+
+.singleMovie {
+  text-align: left;
+  flex-direction: column;
+}
+
